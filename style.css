@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+}
+h1, h2{
+    font-family: sans-serif;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.yellow{
+    background: #ffd43a;
+}
+.green{
+    background: #009688;
+}
+.section-2{
+    scroll-margin: 50px;
+}
+.client-img{
+    object-fit: contain;
+    width: 120px;
+    padding: 0 2px;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.card{
+    border: none;
+}
+.card:hover{
+    transform: scale(
+        1.05
+    );
+    transition: all 0.3s ease-in-out;
+}
+.card-service{
+    background: #22272a;
+    color: #fff;
+    cursor: pointer;
+}
+.card-service:hover{
+    background: #ffd43a;
+    color: #22272a;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.portfolio-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.portfolio-img{
+    object-fit: contain;
+    height: 450px;
+    filter: brightness(0.9);
+}
+.portfolio-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+}
